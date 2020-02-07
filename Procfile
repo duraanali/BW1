@@ -1,1 +1,1 @@
-web: gunicorn Lambda_Mud.wsgi
+web: gunicorn Lambda_Mud.Lambda_Mud.wsgi --preload
